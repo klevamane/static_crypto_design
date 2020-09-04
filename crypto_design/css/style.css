@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #444a75;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+    /* align-items: center; */
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #b2b1b1;
+}
+
+.menu ul li:hover {
+    color: inherit;
+}
+
+.logo {
+    margin-top: -11px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.active {
+    color: rgba(54, 188, 221, 0.667) !important;
+}
+
+.btn-signup {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    right: 80px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    top: 39px;
+    background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da,#19d7f8);
+    background-origin: border-box;
+    /* border-box	Default value. The background extends behind the border */
+    /* content-box	The background extends to the edge of the content box */
+    background-clip: content-box,border-box;
+    border-radius: 20px;
+
+}
+
+.btn-signup:hover {
+    color: #b2b1b1;
+}
+
+.btn-signup span {
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+
+}
+
+.app-text {
+    width: 50%;
+    float: left;
+}
+
+.app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text p {
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    width: 640px;
+    color: #919191;
+}
+
+.app-image {
+    width: 50%;
+    float: right;
+}
+
+.app-image img {
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+.play-btn {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.play-btn-inner {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da,#19d7f8);
+    background-origin: border-box;
+    /* border-box	Default value. The background extends behind the border */
+    /* content-box	The background extends to the edge of the content box */
+    background-clip: content-box,border-box;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.play-btn-inner .fa {
+    padding: 18px 0;
+    font-size: 20px;
+}
+
+small {
+    letter-spacing: 3px;
+    margin: auto 20px;
+    font-size: 12px;
+    color: #19dafa;
+    cursor: pointer;
+    
+}
+
+.quick-links {
+    display: flex;
+    width: 45%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #db1bf6, #19d7f8 );
+}
+.quick-links ul li{
+    list-style: none;
+}
+
+.quick-links ul{
+    display: inline-flex;
+    text-align: center;
+    margin: 30px auto;
+    
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+}
+
+.quick-links ul li {
+    list-style: none;
+    margin: 0 50px;
+    
+}
+
+.quick-links ul li .fa {
+    font-size: 25px;
+    color: #fff;
+}
+
+.quick-links ul li p {
+    margin-top: 15px;
+    font-size: 10px;
+    color: #fff;
+}
